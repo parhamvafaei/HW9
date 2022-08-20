@@ -26,6 +26,9 @@ public class Prescription {
         return index;
     }
 
+    public String getName(int index) {
+        return drugs[index].getName();
+    }
     public boolean contains(String name){
         for (int i = 0; i < size(); i++) {
             if (Objects.equals(name, drugs[i].getName())){
@@ -34,10 +37,27 @@ public class Prescription {
         }
         return false;
     }
-    public String getName(int index){
-        return drugs[index].getName();
+
+    public boolean getPay(){
+        return drugs[0].isPay();
     }
     public boolean getConfirm(){
         return drugs[0].isConfirm();
+    }
+
+    public void prescriptionPrice(){
+        long prescriptionPrice = 0;
+        for (int i = 0; i < size(); i++) {
+            prescriptionPrice += drugs[i].getTotalPrice();
+        }
+        System.out.println("The Total Amount Payable For This Prescription is : " + prescriptionPrice);
+    }
+
+    @Override
+    public String toString() {
+        return "Prescription{" +
+                "drugs=" + Arrays.toString(drugs) +
+                ", index=" + index +
+                '}';
     }
 }
