@@ -12,7 +12,7 @@ public class Patient {
         this.id = id;
     }
 
-    public Patient(String nationalCode, long id) {
+    public Patient(String nationalCode) {
         this.nationalCode = nationalCode;
         this.id = id;
     }
