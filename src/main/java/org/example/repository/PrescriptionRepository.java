@@ -13,8 +13,7 @@ public interface PrescriptionRepository {
     void remove(Patient patient) throws SQLException;
     void changeExistMode(boolean exist, String name) throws SQLException;
     void addPrice(String name, long price, String nationalCode) throws SQLException;
-    Prescription loadBeforeConfirm(Patient patient) throws SQLException;
-    Prescription loadAfterConfirm(Patient patient) throws SQLException;
+
     Prescription loadAll() throws SQLException;
 
 }

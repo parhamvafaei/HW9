@@ -16,6 +16,9 @@ public class Drug {
         this.quantity = quantity;
     }
 
+    public Drug(String name, int quantity) {
+    }
+
     public boolean isPay() {
         return isPay;
     }
