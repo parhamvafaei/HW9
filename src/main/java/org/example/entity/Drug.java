@@ -11,7 +11,7 @@ public class Drug {
     private boolean isPay;
     private long totalPrice;
     private String patientNationalCode;
-    public Drug(String name, int quantity) {
+    public Drug(String name, double price, int quantity) {
         this.name = name;
         this.quantity = quantity;
     }
