@@ -8,13 +8,22 @@ public class Drug {
     private long price;
     private boolean doesExist;
     private boolean isConfirm;
-
+    private boolean isPay;
     private long totalPrice;
     private String patientNationalCode;
     public Drug(String name, int quantity) {
         this.name = name;
         this.quantity = quantity;
     }
+
+    public boolean isPay() {
+        return isPay;
+    }
+
+    public void setPay(boolean pay) {
+        isPay = pay;
+    }
+
 
     public String getName() {
         return name;

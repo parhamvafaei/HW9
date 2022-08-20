@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cbf23f4-5ed5-4f68-a17b-340af61ff1c7" name="Changes" comment="add toString method to Admin">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Drug.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Admin.java" afterDir="false" />
+    <list default="true" id="0cbf23f4-5ed5-4f68-a17b-340af61ff1c7" name="Changes" comment="Update Prescription .add methods getterAdmin">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/Drug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Drug.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660986345076</updated>
-      <workItem from="1660986352859" duration="2189000" />
+      <workItem from="1660986352859" duration="3014000" />
     </task>
     <task id="LOCAL-00001" summary="Set Idea settings ,create DBSconfig">
       <created>1660987819640</created>
@@ -78,7 +76,42 @@
       <option name="project" value="LOCAL" />
       <updated>1660988425134</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update Admin">
+      <created>1660988657493</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660988657493</updated>
+    </task>
+    <task id="LOCAL-00005" summary="create Drug class and setter getter">
+      <created>1660988745551</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660988745551</updated>
+    </task>
+    <task id="LOCAL-00006" summary="create Patient and setter getter">
+      <created>1660988901822</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1660988901822</updated>
+    </task>
+    <task id="LOCAL-00007" summary="create Prescription.define add , remove method">
+      <created>1660989186499</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660989186499</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update Prescription .add methods getterAdmin">
+      <created>1660989363106</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660989363106</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +185,11 @@
     <MESSAGE value="Set Idea settings ,create DBSconfig" />
     <MESSAGE value="create admin class and getter ,setter" />
     <MESSAGE value="add toString method to Admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="add toString method to Admin" />
+    <MESSAGE value="Update Admin" />
+    <MESSAGE value="create Drug class and setter getter" />
+    <MESSAGE value="create Patient and setter getter" />
+    <MESSAGE value="create Prescription.define add , remove method" />
+    <MESSAGE value="Update Prescription .add methods getterAdmin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Prescription .add methods getterAdmin" />
   </component>
 </project>
