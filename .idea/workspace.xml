@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cbf23f4-5ed5-4f68-a17b-340af61ff1c7" name="Changes" comment="Update Prescription .add methods getterAdmin">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/Drug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Drug.java" afterDir="false" />
+    <list default="true" id="0cbf23f4-5ed5-4f68-a17b-340af61ff1c7" name="Changes" comment="Update Class Prescription and add toString method">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/AdminRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660986345076</updated>
-      <workItem from="1660986352859" duration="3014000" />
+      <workItem from="1660986352859" duration="3603000" />
     </task>
     <task id="LOCAL-00001" summary="Set Idea settings ,create DBSconfig">
       <created>1660987819640</created>
@@ -111,7 +111,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660989363106</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update Class Drug">
+      <created>1660989485012</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660989485012</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update Class Prescription and add toString method">
+      <created>1660989681330</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1660989681330</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +204,8 @@
     <MESSAGE value="create Patient and setter getter" />
     <MESSAGE value="create Prescription.define add , remove method" />
     <MESSAGE value="Update Prescription .add methods getterAdmin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Prescription .add methods getterAdmin" />
+    <MESSAGE value="Update Class Drug" />
+    <MESSAGE value="Update Class Prescription and add toString method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Class Prescription and add toString method" />
   </component>
 </project>
