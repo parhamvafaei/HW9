@@ -27,6 +27,9 @@ public class Admin {
 
     @Override
     public String toString() {
-        return super.toString();
+        return "Admin{" +
+                "username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                '}';
     }
 }
