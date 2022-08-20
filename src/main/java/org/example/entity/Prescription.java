@@ -1,6 +1,7 @@
 package org.example.entity;
 
 import java.util.Arrays;
+import java.util.Objects;
 
 public class Prescription {
     private Drug[] drugs = new Drug[10];
@@ -19,5 +20,24 @@ public class Prescription {
             drugs[id] = null;
         }
         if (index - id >= 0) System.arraycopy(drugs, id + 1, drugs, id, index - id);
+    }
+
+    public int size(){
+        return index;
+    }
+
+    public boolean contains(String name){
+        for (int i = 0; i < size(); i++) {
+            if (Objects.equals(name, drugs[i].getName())){
+                return true;
+            }
+        }
+        return false;
+    }
+    public String getName(int index){
+        return drugs[index].getName();
+    }
+    public boolean getConfirm(){
+        return drugs[0].isConfirm();
     }
 }
