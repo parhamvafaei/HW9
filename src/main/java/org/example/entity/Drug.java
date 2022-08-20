@@ -6,7 +6,7 @@ public class Drug {
     private String name;
     private int quantity;
     private long price;
-    private boolean doesExist;
+    private boolean isExist;
     private boolean isConfirm;
     private boolean isPay;
     private long totalPrice;
@@ -52,12 +52,12 @@ public class Drug {
         this.price = price;
     }
 
-    public boolean isDoesExist() {
-        return doesExist;
+    public boolean isExist() {
+        return isExist;
     }
 
-    public void setDoesExist(boolean doesExist) {
-        this.doesExist = doesExist;
+    public void setExist(boolean exist) {
+        this.isExist = exist;
     }
 
     public long getTotalPrice() {
@@ -91,7 +91,7 @@ public class Drug {
         return  "name='" + name + '\'' +
                 ", quantity=" + quantity +
                 ", price=" + price +
-                ", doesExist=" + doesExist +
+                ", doesExist=" + isExist +
                 ", isConfirmed=" + isConfirm+
                 ", totalPrice=" + totalPrice +
                 ", patient's national code=" + patientNationalCode;
